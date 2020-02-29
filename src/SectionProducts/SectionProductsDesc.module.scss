@@ -1,0 +1,61 @@
+.ProductList__desc {
+  // padding-bottom: 26px; // - lit icon
+  justify-content: space-between;
+  align-items: start;
+  display: flex;
+
+  #pink {
+    background-color: #961981;
+  }
+  #red {
+    background-color: #e30613;
+  }
+
+  .ProductList__desc_item {
+    width: 304px;
+    border-bottom: 3px solid #6c7073;
+
+    .desc__title {
+      background-color: #00a098;
+      text-transform: uppercase;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 13px;
+      font-size: 15px;
+    }
+    .desc__list {
+      display: flex;
+
+      &_iconsBlock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .desc__list_icon {
+          padding-bottom: 42px;
+
+        }
+      }
+      
+      .desc__list_articleBlock {
+        
+        .desc__list_desc {
+          padding-left: 7px;
+          padding-bottom: 25px; // ok
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+#gearIcon {
+  padding-bottom: 20px;
+}
+#shildSIcon {
+  padding-bottom: 49px;
+}
+#shieldKIcon {
+  padding-bottom: 53px;
+}

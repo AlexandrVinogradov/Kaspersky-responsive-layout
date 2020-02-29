@@ -1,139 +1,89 @@
 import React from 'react'
-import style from './SectionProducts.module.scss'
-import shieldIcon from './images/shieldIcon.jpg'
-import globusIcon from './images/globusIcon.jpg'
-import scanerIcon from './images/scanerIcon.jpg'
+import styleProd from './SectionProducts.module.scss'
+import styleDesc from './SectionProductsDesc.module.scss'
+import EssenzialeProduct from './Products/EssenzialeProduct'
+import AvanzataProduct from './Products/AvanzataProduct'
+import MultiProduct from './Products/MultiProduct'
 
-import boxAntiVirus from './images/boxAntiVirus.png'
-import boxSecurityPink from './images/boxSecurityPink.png'
-import boxSecurityRed from './images/boxSecurityRed.png'
+import shieldKIcon from './images/shieldKIcon.png'
+import desktopIcon from './images/desktopIcon.png'
+import gearIcon from './images/gearIcon.png'
+import cardIcon from './images/cardIcon.png'
+import parentIcon from './images/parentIcon.png'
+import shielSIcon from './images/shielSIcon.png'
+import radarIcon from './images/radarIcon.png'
+import monitorsIcon from './images/monitorsIcon.png'
 
 const SectionProducts = () => {
   return (
-    <ul className={style.ProductList}>
-      <li className={style.Product}>
-        <div className={style.Product__title}>
-          <img src={shieldIcon} alt="Ati-virus" />
-          <div className={style.Product__title_name}>
-            <span>Kaspersky</span>
-            <span className={style.title_uppercase}>Anti-virus</span>
-            <span>2015</span>
-          </div>
-        </div>
-        <div className={style.Product__title_desc}>
-          <span >Protezione <span className={style.title__desc_green}>essenziale</span> per i pc</span>
-        </div>
-        <img src={boxAntiVirus} className={style.boxImage} alt="Ati-virus -20%" />
-        <ul className={style.buyBlock}>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>1PC</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>29,95 €</span>
-              <span className={style.buy__prise_newPrise}>23,95 €</span>
-            </div>
-            <button className={style.buy__btn}></button>
-          </li>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>3PC</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>44,95 €</span>
-              <span className={style.buy__prise_newPrise}>35,95 €</span>
-            </div>
-            <button className={style.buy__btn}></button>
-          </li>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>5PC</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>64,95 €</span>
-              <span className={style.buy__prise_newPrise}>51,95 €</span>
-            </div>
-            <button className={style.buy__btn}></button>
-          </li>
-        </ul>
-      </li>
-      <li>
+    <section>
+      <ul className={styleProd.ProductList}>
+        <EssenzialeProduct />
+        <AvanzataProduct />
+        <MultiProduct />
+      </ul>
 
-        <div className={style.Product__title}>
-          <img src={globusIcon} alt="Ati-virus" />
-          <div className={style.Product__title_name}>
-            <span>Kaspersky</span>
-            <span className={style.title_uppercase}>Internet security</span>
-            <span>2015</span>
-          </div>
-        </div>
-        <div className={style.Product__title_desc}>
-          <span >Protezione <span className={style.title__desc_pink}>essenziale</span> per i pc</span>
-        </div>
-        <img src={boxSecurityPink} className={style.boxImage} alt="Ati-virus -20%" />
-        <ul className={style.buyBlock}>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>1PC</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>49,95 €</span>
-              <span className={style.buy__prise_newPrise}>39,95 €</span>
+      <ul className={styleDesc.ProductList__desc}>
+        <li className={styleDesc.ProductList__desc_item}>
+          <div className={styleDesc.desc__title}>Scopri i vantaggi</div>
+          <article className={styleDesc.desc__list}>
+            <div className={styleDesc.desc__list_iconsBlock}>
+              <img src={shieldKIcon} className={styleDesc.desc__list_icon} alt="Protezione dalle" />
+              <img src={desktopIcon} className={styleDesc.desc__list_icon} alt="Scansione continua" />
+              <img id={styleDesc.gearIcon} src={gearIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
             </div>
-            <button className={style.buy__btn}></button>
-          </li>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>3PC</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>69,95 €</span>
-              <span className={style.buy__prise_newPrise}>55,95 €</span>
-            </div>
-            <button className={style.buy__btn}></button>
-          </li>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>5PC</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>89,95 €</span>
-              <span className={style.buy__prise_newPrise}>71,95 €</span>
-            </div>
-            <button className={style.buy__btn}></button>
-          </li>
-        </ul>
-      </li>
-      <li>
+            <article className={styleDesc.desc__list_articleBlock}>
+              <p className={styleDesc.desc__list_desc}>Protezione dalle odierne minacce di sicurezza su Internet</p>
+              <p className={styleDesc.desc__list_desc}>Scansione continua del tuo PC con avvisi real time</p>
+              <p className={styleDesc.desc__list_desc}>Aggiornamenti gratuiti</p>
+            </article>
+          </article>
+        </li>
 
-        <div className={style.Product__title}>
-          <img src={scanerIcon} alt="Ati-virus" />
-          <div className={style.Product__title_name}>
-            <span>Kaspersky</span>
-            <span className={style.title_uppercase}>Internet security</span>
-            <span>2015</span>
-          </div>
-        </div>
-        <div className={style.Product__title_desc}>
-          <span >Protezione <span className={style.title__desc_red}>multii-dispositivo</span> per i pc,</span>
-        </div>
-        <img src={boxSecurityRed} className={style.boxImage} alt="Ati-virus -20%" />
-        <ul className={style.buyBlock}>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>3 Disp.</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>69,95 €</span>
-              <span className={style.buy__prise_newPrise}>55,95 €</span>
+
+        <li className={styleDesc.ProductList__desc_item}>
+          <div className={styleDesc.desc__title} id={styleDesc.pink}>Scopri i vantaggi</div>
+          <article className={styleDesc.desc__list}>
+            <div className={styleDesc.desc__list_iconsBlock}>
+              <img src={shieldKIcon} className={styleDesc.desc__list_icon} alt="Protezione dalle" />
+              <img src={cardIcon} className={styleDesc.desc__list_icon} alt="Scansione continua" />
+              <img src={parentIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img id={styleDesc.shildSIcon} src={shielSIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img id={styleDesc.gearIcon} src={gearIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
             </div>
-            <button className={style.buy__btn}></button>
-          </li>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>5 Disp.</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>89,95 €</span>
-              <span className={style.buy__prise_newPrise}>71,95 €</span>
+            <article className={styleDesc.desc__list_articleBlock}>
+              <p className={styleDesc.desc__list_desc}>Protezione dalle odierne minacce di sicurezza su Internet</p>
+              <p className={styleDesc.desc__list_desc}>Transazioni online sicure</p>
+              <p className={styleDesc.desc__list_desc}>Parental control che garantisce la sicurezza della tua famiglia</p>
+              <p className={styleDesc.desc__list_desc}>Controllo degli accessi alla tua Webcam da parte di PC non autorizzati</p>
+              <p className={styleDesc.desc__list_desc}>Aggiornamenti gratuiti</p>
+            </article>
+          </article>
+        </li>
+
+        <li className={styleDesc.ProductList__desc_item}>
+          <div className={styleDesc.desc__title} id={styleDesc.red}>Scopri i vantaggi</div>
+          <article className={styleDesc.desc__list}>
+            <div className={styleDesc.desc__list_iconsBlock}>
+              <img id={styleDesc.shieldKIcon} src={shieldKIcon} className={styleDesc.desc__list_icon} alt="Protezione dalle" />
+              <img src={cardIcon} className={styleDesc.desc__list_icon} alt="Scansione continua" />
+              <img src={radarIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img src={monitorsIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img src={parentIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img  id={styleDesc.gearIcon} src={gearIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
             </div>
-            <button className={style.buy__btn}></button>
-          </li>
-          <li className={style.Product__buy}>
-            <span className={style.buy__size}>10 Disp.</span>
-            <div className={style.buy__prise}>
-              <span className={style.buy__prise_oldPrise}>129,95 €</span>
-              <span className={style.buy__prise_newPrise}>103,95 €</span>
-            </div>
-            <button className={style.buy__btn}></button>
-          </li>
-        </ul>
-      </li>
-    </ul>
+            <article className={styleDesc.desc__list_articleBlock}>
+              <p className={styleDesc.desc__list_desc}>Protezione dalle odierne minacce di sicurezza su Internet</p>
+              <p className={styleDesc.desc__list_desc}>Protezione aggiuntiva per shopping e banking online</p>
+              <p className={styleDesc.desc__list_desc}>Controllo vulnerabilità delle reti Wi-Fi</p>
+              <p className={styleDesc.desc__list_desc}>Un’unica licenza per la gestione della sicurezza dei tuoi dispositivi</p>
+              <p className={styleDesc.desc__list_desc}>Parental Control Avanzato</p>
+              <p className={styleDesc.desc__list_desc}>Massima sicurezza ed alte prestazioni</p>
+            </article>
+          </article>
+        </li>
+      </ul>
+    </section>
   )
 }
 
