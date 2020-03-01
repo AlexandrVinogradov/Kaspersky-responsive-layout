@@ -23,6 +23,8 @@
       text-align: center;
       margin-bottom: 13px;
       font-size: 15px;
+      font-weight: 200;
+      font-family: HelveticaNeueLTComMd;
     }
     .desc__list {
       display: flex;
@@ -33,7 +35,7 @@
         align-items: center;
 
         .desc__list_icon {
-          padding-bottom: 42px;
+          padding-bottom: 35px;
 
         }
       }
@@ -44,6 +46,7 @@
           padding-left: 7px;
           padding-bottom: 25px; // ok
           font-size: 16px;
+          font-family: ArialRegular;
         }
       }
     }
@@ -54,8 +57,29 @@
   padding-bottom: 20px;
 }
 #shildSIcon {
-  padding-bottom: 49px;
+  padding-bottom: 40px;
 }
 #shieldKIcon {
-  padding-bottom: 53px;
+  padding-bottom: 50px;
+}
+#cardIcon {
+  padding-bottom: 25px;
+}
+#radarIcon {
+  padding-bottom: 18px;
+}
+#monitorsIcon {
+  padding-bottom: 15px;
+}
+#parentIcon {
+  padding-bottom: 26px;
+}
+
+@font-face {
+  font-family: "HelveticaNeueLTComMd";
+  src: url("../fonts/HelveticaNeueLTComMd.otf") format("truetype");
+}
+@font-face {
+  font-family: "ArialRegular";
+  src: url("../fonts/ArialRegular.ttf") format("truetype");
 }

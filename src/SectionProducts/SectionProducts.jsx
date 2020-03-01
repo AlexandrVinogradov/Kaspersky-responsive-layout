@@ -21,9 +21,9 @@ const SectionProducts = () => {
         <EssenzialeProduct />
         <AvanzataProduct />
         <MultiProduct />
-      </ul>
+      </ul> 
 
-      <ul className={styleDesc.ProductList__desc}>
+      <ul className={styleDesc.ProductList__desc}> 
         <li className={styleDesc.ProductList__desc_item}>
           <div className={styleDesc.desc__title}>Scopri i vantaggi</div>
           <article className={styleDesc.desc__list}>
@@ -66,11 +66,11 @@ const SectionProducts = () => {
           <article className={styleDesc.desc__list}>
             <div className={styleDesc.desc__list_iconsBlock}>
               <img id={styleDesc.shieldKIcon} src={shieldKIcon} className={styleDesc.desc__list_icon} alt="Protezione dalle" />
-              <img src={cardIcon} className={styleDesc.desc__list_icon} alt="Scansione continua" />
-              <img src={radarIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
-              <img src={monitorsIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
-              <img src={parentIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
-              <img  id={styleDesc.gearIcon} src={gearIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img id={styleDesc.cardIcon} src={cardIcon} className={styleDesc.desc__list_icon} alt="Scansione continua" />
+              <img id={styleDesc.radarIcon} src={radarIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img id={styleDesc.monitorsIcon} src={monitorsIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img id={styleDesc.parentIcon} src={parentIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
+              <img id={styleDesc.gearIcon} src={gearIcon} className={styleDesc.desc__list_icon} alt="Aggiornamenti gratuiti" />
             </div>
             <article className={styleDesc.desc__list_articleBlock}>
               <p className={styleDesc.desc__list_desc}>Protezione dalle odierne minacce di sicurezza su Internet</p>

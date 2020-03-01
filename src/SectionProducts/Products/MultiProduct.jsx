@@ -5,18 +5,18 @@ import boxSecurityRed from './images/boxSecurityRed.png'
 
 const MultiProduct = () => {
   return (
-    <li className={style.Product}>
+    <li className={style.Product} id={style.lastProduct}>
       <div className={style.Product__title}>
         <img src={scanerIcon} alt="Ati-virus" />
         <div className={style.Product__title_name}>
           <span>Kaspersky</span>
           <span className={style.title_uppercase}>Internet security</span>
-          <span>2015</span>
+          <span>Multi-Device</span>
         </div>
       </div>
-      <div className={style.Product__title_desc}>
+      <div id={style.Product__title_pad} className={style.Product__title_desc}>
         <span>
-          Protezione <span className={style.title__desc_red}>multii-dispositivo</span> per i pc,
+          Protezione <span className={style.title__desc_red}>multii-dispositivo</span> per i pc, mac, cmartphone e tablet android
         </span>
       </div>
       <img src={boxSecurityRed} className={style.boxImage} alt="Ati-virus -20%" />

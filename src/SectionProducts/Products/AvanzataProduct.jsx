@@ -20,7 +20,7 @@ const AvanzataProduct = () => {
         </span>
       </div>
       <img src={boxSecurityPink} className={style.boxImage} alt="Ati-virus -20%" />
-      <ul className={style.buyBlock}>
+      <ul id={style.buyBlock_pad} className={style.buyBlock}>
         <li className={style.Product__buy}>
           <span className={style.buy__size}>1PC</span>
           <div className={style.buy__prise}>

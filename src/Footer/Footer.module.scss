@@ -2,10 +2,26 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white;
+  padding: 20px 0 20px; 
+  font-size: 12px;
 
   .footer__copyright {
     display: flex;
     flex-direction: column;
+
+    #font_md {
+      font-weight: 700;
+    }
+  }
+
+  #privacy {
+    word-spacing: 5px;
+    padding-left: 29px;
+  }
+  #Legali {
+    word-spacing: 0px;
+
   }
 
   .footer__logos {
@@ -19,5 +35,5 @@
       width: 36px;
     }
   }
-
 }
+

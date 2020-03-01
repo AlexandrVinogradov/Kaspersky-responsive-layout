@@ -1,0 +1,19 @@
+.LogoAndTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+  .tittle {
+    color: #007360;
+    text-transform: uppercase;
+    font-family: MuseoSansBold;
+    font-size: 31px;
+  }
+}
+
+@font-face {
+  font-family: "MuseoSansBold";
+  src: url("../fonts/MuseoSansBold.ttf") format("truetype");
+}
