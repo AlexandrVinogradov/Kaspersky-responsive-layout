@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Kaspersky-responsive-layout/static/css/main.87b713ed.chunk.css",
+    "main.js": "/Kaspersky-responsive-layout/static/js/main.ed102e7e.chunk.js",
+    "main.js.map": "/Kaspersky-responsive-layout/static/js/main.ed102e7e.chunk.js.map",
+    "runtime-main.js": "/Kaspersky-responsive-layout/static/js/runtime-main.a9c8b56b.js",
+    "runtime-main.js.map": "/Kaspersky-responsive-layout/static/js/runtime-main.a9c8b56b.js.map",
+    "static/js/2.07fb7501.chunk.js": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js",
+    "static/js/2.07fb7501.chunk.js.map": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js.map",
+    "index.html": "/Kaspersky-responsive-layout/index.html",
+    "precache-manifest.39415bd752b977e24a8e2a1751d115c4.js": "/Kaspersky-responsive-layout/precache-manifest.39415bd752b977e24a8e2a1751d115c4.js",
+    "service-worker.js": "/Kaspersky-responsive-layout/service-worker.js",
+    "static/css/main.87b713ed.chunk.css.map": "/Kaspersky-responsive-layout/static/css/main.87b713ed.chunk.css.map",
+    "static/js/2.07fb7501.chunk.js.LICENSE.txt": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js.LICENSE.txt",
+    "static/media/SectionBaner.module.scss": "/Kaspersky-responsive-layout/static/media/20disconto.9fef9dff.jpg",
+    "static/media/SectionProducts.module.scss": "/Kaspersky-responsive-layout/static/media/FSElliotProBold.e54a242e.otf",
+    "static/media/SectionProductsDesc.module.scss": "/Kaspersky-responsive-layout/static/media/HelveticaNeueLTComMd.bfe7c3bf.otf",
+    "static/media/Header.module.scss": "/Kaspersky-responsive-layout/static/media/MuseoSansBold.1808b5f6.ttf",
+    "static/media/boxAntiVirus.png": "/Kaspersky-responsive-layout/static/media/boxAntiVirus.7a2a2899.png",
+    "static/media/boxSecurityPink.png": "/Kaspersky-responsive-layout/static/media/boxSecurityPink.59c5d335.png",
+    "static/media/boxSecurityRed.png": "/Kaspersky-responsive-layout/static/media/boxSecurityRed.90431099.png",
+    "static/media/desktopIcon.png": "/Kaspersky-responsive-layout/static/media/desktopIcon.69877335.png",
+    "static/media/globusIcon.jpg": "/Kaspersky-responsive-layout/static/media/globusIcon.2fa0529c.jpg",
+    "static/media/logo.png": "/Kaspersky-responsive-layout/static/media/logo.3ad9efb9.png",
+    "static/media/shielSIcon.png": "/Kaspersky-responsive-layout/static/media/shielSIcon.95471158.png",
+    "static/media/shieldIcon.jpg": "/Kaspersky-responsive-layout/static/media/shieldIcon.667bff35.jpg",
+    "static/media/youtybe.png": "/Kaspersky-responsive-layout/static/media/youtybe.3cecd883.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9c8b56b.js",
+    "static/js/2.07fb7501.chunk.js",
+    "static/css/main.87b713ed.chunk.css",
+    "static/js/main.ed102e7e.chunk.js"
+  ]
+}
