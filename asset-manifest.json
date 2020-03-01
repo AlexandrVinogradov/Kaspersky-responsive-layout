@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kaspersky-responsive-layout/static/css/main.87b713ed.chunk.css",
+    "main.css": "/Kaspersky-responsive-layout/static/css/main.3ad3542b.chunk.css",
     "main.js": "/Kaspersky-responsive-layout/static/js/main.ed102e7e.chunk.js",
     "main.js.map": "/Kaspersky-responsive-layout/static/js/main.ed102e7e.chunk.js.map",
     "runtime-main.js": "/Kaspersky-responsive-layout/static/js/runtime-main.a9c8b56b.js",
@@ -8,9 +8,9 @@
     "static/js/2.07fb7501.chunk.js": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js",
     "static/js/2.07fb7501.chunk.js.map": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js.map",
     "index.html": "/Kaspersky-responsive-layout/index.html",
-    "precache-manifest.39415bd752b977e24a8e2a1751d115c4.js": "/Kaspersky-responsive-layout/precache-manifest.39415bd752b977e24a8e2a1751d115c4.js",
+    "precache-manifest.33f91c7c8ea322221ab8d7a9061add1b.js": "/Kaspersky-responsive-layout/precache-manifest.33f91c7c8ea322221ab8d7a9061add1b.js",
     "service-worker.js": "/Kaspersky-responsive-layout/service-worker.js",
-    "static/css/main.87b713ed.chunk.css.map": "/Kaspersky-responsive-layout/static/css/main.87b713ed.chunk.css.map",
+    "static/css/main.3ad3542b.chunk.css.map": "/Kaspersky-responsive-layout/static/css/main.3ad3542b.chunk.css.map",
     "static/js/2.07fb7501.chunk.js.LICENSE.txt": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js.LICENSE.txt",
     "static/media/SectionBaner.module.scss": "/Kaspersky-responsive-layout/static/media/20disconto.9fef9dff.jpg",
     "static/media/SectionProducts.module.scss": "/Kaspersky-responsive-layout/static/media/FSElliotProBold.e54a242e.otf",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.a9c8b56b.js",
     "static/js/2.07fb7501.chunk.js",
-    "static/css/main.87b713ed.chunk.css",
+    "static/css/main.3ad3542b.chunk.css",
     "static/js/main.ed102e7e.chunk.js"
   ]
 }

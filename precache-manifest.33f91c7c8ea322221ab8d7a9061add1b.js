@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bea5ea994ee543362ee2b54422925e90",
+    "revision": "96459a5e85c9faf02ae32840fd96e190",
     "url": "/Kaspersky-responsive-layout/index.html"
   },
   {
-    "revision": "1f67d261ebbadfe25904",
-    "url": "/Kaspersky-responsive-layout/static/css/main.87b713ed.chunk.css"
+    "revision": "e022d1fcf2566b4cd9bc",
+    "url": "/Kaspersky-responsive-layout/static/css/main.3ad3542b.chunk.css"
   },
   {
     "revision": "6b1ec708b1064ac6bcdd",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f67d261ebbadfe25904",
+    "revision": "e022d1fcf2566b4cd9bc",
     "url": "/Kaspersky-responsive-layout/static/js/main.ed102e7e.chunk.js"
   },
   {
