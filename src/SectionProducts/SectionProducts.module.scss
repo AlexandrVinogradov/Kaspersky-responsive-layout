@@ -126,3 +126,19 @@
   src: url("../fonts/ArialRegular.ttf") format("truetype");
 }
 
+
+@-moz-document url-prefix() {
+  .ProductList {
+    font-weight: 100;
+
+    .Product__title_desc {
+      font-weight: 700;
+    }
+
+  }
+  .buy__size {
+    // font-family: ArialBold;
+    letter-spacing: 0px!important;
+  }
+
+}
