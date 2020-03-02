@@ -15,5 +15,9 @@
 
 @font-face {
   font-family: "MuseoSansBold";
-  src: url("../fonts/MuseoSansBold.ttf") format("truetype");
+  src: url("../fonts/MuseoSansBold/MuseoSansBold.eot"); 
+  src: url("../fonts/MuseoSansBold/MuseoSansBold.eot?#iefix") format('embedded-opentype'), 
+  url("../fonts/MuseoSansBold/MuseoSansBold.woff2") format('woff2'),
+  url("../fonts/MuseoSansBold/MuseoSansbold.woff") format('woff'),
+  url("../fonts/MuseoSansBold/MuseoSansBold.ttf") format("truetype");
 }

@@ -25,12 +25,11 @@
     }
   }
   #lastProduct {
-    min-width: 274px; 
+    min-width: 278px; 
   }
   .Product {
   max-width: 303px; 
   min-width: 250px;
-
   position: relative;  
   }
   .boxImage {
@@ -41,7 +40,7 @@
   .Product__title {
     display: flex;
     position: relative;
-    width: 400px;
+    width: 340px;
   
     & img {
       height: 59px;
@@ -115,16 +114,29 @@
 
 @font-face {
   font-family: "FSElliotProBold";
-  src: url("../fonts/FSElliotProBold.otf") format("truetype");
+  src: url("../fonts/FSElliotProBold/FSElliotPro-Bold.eot"); 
+  src: url("../fonts/FSElliotProBold/FSElliotPro-Bold.eot?#iefix") format('embedded-opentype'), 
+  url("../fonts/FSElliotProBold/FSElliotPro-Bold.woff2") format('woff2'),
+  url("../fonts/FSElliotProBold/FSElliotPro-Bold.woff") format('woff'),
+  url("../fonts/FSElliotProBold/FSElliotPro-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "ArialBold";
-  src: url("../fonts/ArialBold.ttf") format("truetype");
+  src: url("../fonts/ArialBold/ArialBold.eot"); 
+  src: url("../fonts/ArialBold/ArialBold.eot?#iefix") format('embedded-opentype'), 
+  url("../fonts/ArialBold/ArialBold.woff2") format('woff2'),
+  url("../fonts/ArialBold/ArialBold.woff") format('woff'),
+  url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "ArialRegular";
-  src: url("../fonts/ArialRegular.ttf") format("truetype");
+  src: url("../fonts/ArialRegular/ArialRegular.eot"); 
+  src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix") format('embedded-opentype'), 
+  url("../fonts/ArialRegular/ArialRegular.woff2") format('woff2'),
+  url("../fonts/ArialRegular/ArialRegular.woff") format('woff'),
+  url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
 }
+
 
 
 @-moz-document url-prefix() {
