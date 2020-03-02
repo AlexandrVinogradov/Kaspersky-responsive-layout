@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Kaspersky-responsive-layout/precache-manifest.33f91c7c8ea322221ab8d7a9061add1b.js"
+  "/Kaspersky-responsive-layout/precache-manifest.df719277696cc87caf487713dfec8255.js"
 );
 
 self.addEventListener('message', (event) => {

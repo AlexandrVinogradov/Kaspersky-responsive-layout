@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Kaspersky-responsive-layout/static/css/main.3ad3542b.chunk.css",
-    "main.js": "/Kaspersky-responsive-layout/static/js/main.ed102e7e.chunk.js",
-    "main.js.map": "/Kaspersky-responsive-layout/static/js/main.ed102e7e.chunk.js.map",
+    "main.css": "/Kaspersky-responsive-layout/static/css/main.99e2590a.chunk.css",
+    "main.js": "/Kaspersky-responsive-layout/static/js/main.d2a99fcf.chunk.js",
+    "main.js.map": "/Kaspersky-responsive-layout/static/js/main.d2a99fcf.chunk.js.map",
     "runtime-main.js": "/Kaspersky-responsive-layout/static/js/runtime-main.a9c8b56b.js",
     "runtime-main.js.map": "/Kaspersky-responsive-layout/static/js/runtime-main.a9c8b56b.js.map",
-    "static/js/2.07fb7501.chunk.js": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js",
-    "static/js/2.07fb7501.chunk.js.map": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js.map",
+    "static/js/2.661ab5e5.chunk.js": "/Kaspersky-responsive-layout/static/js/2.661ab5e5.chunk.js",
+    "static/js/2.661ab5e5.chunk.js.map": "/Kaspersky-responsive-layout/static/js/2.661ab5e5.chunk.js.map",
     "index.html": "/Kaspersky-responsive-layout/index.html",
-    "precache-manifest.33f91c7c8ea322221ab8d7a9061add1b.js": "/Kaspersky-responsive-layout/precache-manifest.33f91c7c8ea322221ab8d7a9061add1b.js",
+    "precache-manifest.df719277696cc87caf487713dfec8255.js": "/Kaspersky-responsive-layout/precache-manifest.df719277696cc87caf487713dfec8255.js",
     "service-worker.js": "/Kaspersky-responsive-layout/service-worker.js",
-    "static/css/main.3ad3542b.chunk.css.map": "/Kaspersky-responsive-layout/static/css/main.3ad3542b.chunk.css.map",
-    "static/js/2.07fb7501.chunk.js.LICENSE.txt": "/Kaspersky-responsive-layout/static/js/2.07fb7501.chunk.js.LICENSE.txt",
+    "static/css/main.99e2590a.chunk.css.map": "/Kaspersky-responsive-layout/static/css/main.99e2590a.chunk.css.map",
+    "static/js/2.661ab5e5.chunk.js.LICENSE.txt": "/Kaspersky-responsive-layout/static/js/2.661ab5e5.chunk.js.LICENSE.txt",
     "static/media/SectionBaner.module.scss": "/Kaspersky-responsive-layout/static/media/20disconto.9fef9dff.jpg",
-    "static/media/SectionProducts.module.scss": "/Kaspersky-responsive-layout/static/media/FSElliotProBold.e54a242e.otf",
-    "static/media/SectionProductsDesc.module.scss": "/Kaspersky-responsive-layout/static/media/HelveticaNeueLTComMd.bfe7c3bf.otf",
-    "static/media/Header.module.scss": "/Kaspersky-responsive-layout/static/media/MuseoSansBold.1808b5f6.ttf",
+    "static/media/SectionProducts.module.scss": "/Kaspersky-responsive-layout/static/media/FSElliotPro-Bold.ee621f81.woff2",
+    "static/media/SectionProductsDesc.module.scss": "/Kaspersky-responsive-layout/static/media/HelveticaNeueLTComMd.a5a6a88a.eot",
+    "static/media/Header.module.scss": "/Kaspersky-responsive-layout/static/media/MuseoSansbold.24862635.woff",
     "static/media/boxAntiVirus.png": "/Kaspersky-responsive-layout/static/media/boxAntiVirus.7a2a2899.png",
     "static/media/boxSecurityPink.png": "/Kaspersky-responsive-layout/static/media/boxSecurityPink.59c5d335.png",
     "static/media/boxSecurityRed.png": "/Kaspersky-responsive-layout/static/media/boxSecurityRed.90431099.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a9c8b56b.js",
-    "static/js/2.07fb7501.chunk.js",
-    "static/css/main.3ad3542b.chunk.css",
-    "static/js/main.ed102e7e.chunk.js"
+    "static/js/2.661ab5e5.chunk.js",
+    "static/css/main.99e2590a.chunk.css",
+    "static/js/main.d2a99fcf.chunk.js"
   ]
 }
