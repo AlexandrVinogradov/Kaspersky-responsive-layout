@@ -43,7 +43,7 @@
         
         .desc__list_desc {
           padding-left: 7px;
-          padding-bottom: 25px; // ok
+          padding-bottom: 25px; 
           font-size: 16px;
           font-family: ArialRegular;
         }
@@ -76,17 +76,17 @@
 
 @font-face {
   font-family: "ArialRegular";
-  src: url("../fonts/ArialRegular/ArialRegular.eot"); 
-  src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix") format('embedded-opentype'), 
-  url("../fonts/ArialRegular/ArialRegular.woff2") format('woff2'),
-  url("../fonts/ArialRegular/ArialRegular.woff") format('woff'),
-  url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+  src: url("../../fonts/ArialRegular/ArialRegular.eot"); 
+  src: url("../../fonts/ArialRegular/ArialRegular.eot?#iefix") format('embedded-opentype'), 
+  url("../../fonts/ArialRegular/ArialRegular.woff2") format('woff2'),
+  url("../../fonts/ArialRegular/ArialRegular.woff") format('woff'),
+  url("../../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
 }
 @font-face {
   font-family: "HelveticaNeueLTComMd";
-  src: url("../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.eot"); 
-  src: url("../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.eot?#iefix") format('embedded-opentype'), 
-  url("../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.woff2") format('woff2'),
-  url("../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.woff") format('woff'),
-  url("../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.ttf") format("truetype");
+  src: url("../../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.eot"); 
+  src: url("../../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.eot?#iefix") format('embedded-opentype'), 
+  url("../../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.woff2") format('woff2'),
+  url("../../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.woff") format('woff'),
+  url("../../fonts/HelveticaNeueLTComMd/HelveticaNeueLTComMd.ttf") format("truetype");
 }

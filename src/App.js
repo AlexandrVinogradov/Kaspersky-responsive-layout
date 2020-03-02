@@ -13,7 +13,7 @@ const App = () => {
       </div>
       <main>
         <div className={style.container}>
-          <SectionBaner />
+          <SectionBaner /> 
           <SectionProducts />
         </div>
       </main>

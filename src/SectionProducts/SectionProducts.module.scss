@@ -25,7 +25,7 @@
     }
   }
   #lastProduct {
-    min-width: 278px; 
+    min-width: 290px; 
   }
   .Product {
   max-width: 303px; 
@@ -79,7 +79,6 @@
     
       .buy__size {
         font-family: ArialBold;
-        letter-spacing: -0.1rem;
       }
       .buy__prise {
         display: flex;
@@ -136,8 +135,6 @@
   url("../fonts/ArialRegular/ArialRegular.woff") format('woff'),
   url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
 }
-
-
 
 @-moz-document url-prefix() {
   .ProductList {
