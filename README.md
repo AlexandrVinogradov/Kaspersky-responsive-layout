@@ -2,6 +2,13 @@
 
 #### See the [Demo](https://alexandrvinogradov.github.io/Kaspersky-responsive-layout) </br></br>
 
+#### Page support following drowsers: 
+* Google Chrome (latest version)
+* Firefox (latest version)
+* Safari (latest version)
+* Internet Explorer 11/Edge (latest version)
+* Opera (latest version)
+* Yandex browser (latest version)
 
 #### Stack: 
 * React.js
